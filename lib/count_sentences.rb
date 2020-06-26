@@ -18,6 +18,7 @@ class String
     counter = 0
     splitter = self.split(" ")
     splitter.each do |index|
+      if index.length > 1
       counter += 1
     end
     counter
