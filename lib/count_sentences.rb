@@ -23,7 +23,7 @@ class String
     end
       if index.end_with?("!")
       counter += 1
-      
+    end
       if index.end_with?("?")
       counter += 1
       end
