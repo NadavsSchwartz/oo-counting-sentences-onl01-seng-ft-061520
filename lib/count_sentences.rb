@@ -20,6 +20,8 @@ class String
     splitter.each do |index|
       if index.end_with?(".")
       counter += 1
+      if index.end_with?("!")
+      counter += 1
       end
     end
     counter
