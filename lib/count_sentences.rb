@@ -15,7 +15,11 @@ class String
   end
 
   def count_sentences
-    self.split(" ")
-    self
+    counter = 0
+    splitter = self.split(" ")
+    splitter.each do |index|
+      counter += 1
+    end
+    counter
   end
 end
