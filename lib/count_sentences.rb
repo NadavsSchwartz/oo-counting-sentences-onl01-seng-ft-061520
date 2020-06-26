@@ -20,6 +20,7 @@ class String
     splitter.each do |index|
       if index.length > 1
       counter += 1
+      end
     end
     counter
   end
