@@ -23,6 +23,9 @@ class String
     end
       if index.end_with?("!")
       counter += 1
+      
+      if index.end_with?("?")
+      counter += 1
       end
     end
     counter
