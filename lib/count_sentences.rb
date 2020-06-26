@@ -18,7 +18,7 @@ class String
     counter = 0
     splitter = self.split(" ")
     splitter.each do |index|
-      if index.length >= 2
+      if index.end_with?(".")
       counter += 1
       end
     end
